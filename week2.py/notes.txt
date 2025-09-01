@@ -1,0 +1,6 @@
+literal = real value, but no placement
+boolean = true or false
+float = decimals
+help = help
+input = result for user that was stored in a string
+type = type of variable
