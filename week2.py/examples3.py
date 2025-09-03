@@ -6,11 +6,11 @@ while True:
     print("Enter your guess")
     guess = input()
     guess = int(guess) #this allows guess to become an integer
-    if guess == answer: #If the answer and guess 
-        print("You win")
+    if guess == answer: #If the answer and guess are the same
+        print("You win") #Then this happens
         break
-    if guess > answer:
-        print("Too high")
-    if guess < answer:
-        print("Too low")
+    if guess > answer: #But if guess is over the answer
+        print("Too high") #It will print this
+    if guess < answer: #and if the guess is lower than the answer
+        print("Too low") #it will print this
 print("Game Over")
