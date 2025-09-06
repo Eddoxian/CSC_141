@@ -1,1 +1,1 @@
-#Please look at literally any of my other week 2 assignments, comments everywhere!
+#Please look at literally any of my other week 2 assignments, comments everywhere! For the most part
