@@ -1,0 +1,1 @@
+#Believe me, I have gotten about a million errors regarding .pop()s and losing track of where the list is. If I missed something, please let me know!
