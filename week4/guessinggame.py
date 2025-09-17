@@ -1,7 +1,7 @@
 import random
 words = ["pears", "man", "tree", "bear"]
 word = "PYTHON"
-secret = secret = ["_" for letter in word]
+secret = ["_" for letter in word]
 print("".join(secret))
 
 while "".join(secret) != word:
@@ -9,8 +9,11 @@ while "".join(secret) != word:
     guess = input()
     guess = guess.upper()
     if guess in word:
-        letter_index = word.index(guess)
-        secret[letter_index] = guess
+        index = 0
+        for letter in word:
+            if letter == guess:
+                secret[index] = letter
+            index += 1
     else:
         print("Not in word")
     print("".join(secret))
