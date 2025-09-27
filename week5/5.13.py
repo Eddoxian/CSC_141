@@ -1,8 +1,8 @@
-date = 9/26/25
-
-if date > date:
+due_date = 9/26/25
+done_date = 9/27/25
+if done_date > due_date:
     print("On time!")
-elif date < date:
+elif due_date > done_date:
     print("Sorry this was late")
 
 reasons = ['forgot', 'confused', 'sidetracked']
