@@ -1,6 +1,8 @@
-person1 = {"First_Name" : "Mike",
+person = {"First_Name" : "Mike",
            "Last_Name" : "Richardson",
            "Age" : "47",
            "City" : "New York"}
-for property in person1:
-    print(f"{property} ; {person1[property]}")
+print("First_name:", person["First_Name"])
+print("Last_name:", person["Last_Name"])
+print("Age:", person["Age"])
+print("City:", person["City"])
