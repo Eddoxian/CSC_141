@@ -1,0 +1,31 @@
+while loop repeats the strings of code so long as the boolean is true
+boolean can only be true or false
+f strings tell anything in {} to be a string and pull info.
+Input() is storage oftentimes if you want to change something to a variable using int()
+Lists are storage using [], the first item in a list is 0
+randint picks a number between 0 and whatever the final number is
+input() normally involves human intervention to work
+Break means to stop a loop block
+if statements are basically conditions for if something did happen
+else statements are conditions for if something didnt happen with if
+elif is a neater way of checking through a list of loops
+dictionaries always hold key-value pairs
+dictionaries use keys to look up values
+dictionaries can contain lists and strings
+We split among spaces to get individual words
+len = length
+
+Binary practice
+1101
+from right to left its 2 to the next power, every 0 is an off switch
+so 1, 4, 8, which = 13
+
+110011
+which is 32, 16, 2, 1 which is 51
+
+Turning decimal to a Binary
+37 = 100101
+
+94 = 1011110
+
+Binaries are always powers of 2
