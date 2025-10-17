@@ -1,7 +1,6 @@
-number = input("What number do you want?")
-number  = int(number)
+number = int(input("Enter a Number:"))
 
 if number % 10 == 0:
-    print("Its a multiple of 10")
+    print(f"{number} is a pultiple of 10")
 else:
-    print("It's not a multiple of 10")
+    print(f"{number} is not a multiple of 10")
