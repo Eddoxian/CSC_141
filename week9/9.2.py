@@ -9,8 +9,8 @@ class Restaurant:
     def open_restaurant(self):
         print(f"{self.restaurant_name} is now open!")
 
-# Now make three instances:
-restaurant1 = Restaurant("Golden Lotus", "Chinese")
+
+restaurant1 = Restaurant("Golden Shop", "Chinese")
 restaurant2 = Restaurant("Pasta Place", "Italian")
 restaurant3 = Restaurant("Taco Truck", "Mexican")
 
