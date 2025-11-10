@@ -10,7 +10,7 @@ pygame.init()
 
 
 
-WIDTH, HEIGHT = 400, 600
+WIDTH, HEIGHT = 1920, 1080 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flabby Birb")
 
@@ -87,9 +87,6 @@ while running:
     clock.tick(FPS)
     screen.fill(BLUE)
 
-
-
-
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
@@ -100,17 +97,14 @@ while running:
 
 
 
-
     # Bird physics
     bird_velocity += gravity
     bird_y += bird_velocity
 
 
 
-
     # Make bird
     pygame.draw.circle(screen, WHITE, (bird_x, int(bird_y)), bird_radius)
-
 
 
 
@@ -122,11 +116,9 @@ while running:
 
 
 
-
         #Pipe speed
         top.x -= pipe_speed
         bottom.x -= pipe_speed
-
 
 
 
@@ -143,13 +135,11 @@ while running:
 
 
 
-
         #Break pipe code
         if not pipe["broken"]:
             if top.collidepoint(bird_x, bird_y) or bottom.collidepoint(bird_x, bird_y):
                 pipe["broken"] = True
                 score += 1
-
 
 
 
@@ -179,16 +169,13 @@ while running:
 
 
 
-
  
         if top.right > 0 or (pipe["broken"] and any(f["rect"].right > 0 for f in pipe["fragments"])):
             new_pipes.append(pipe)
 
 
 
-
     pipes = new_pipes
-
 
 
 
