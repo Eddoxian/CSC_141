@@ -1,0 +1,1 @@
+& C:/Users/Keris/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/Keris/OneDrive/Documents/GitHub/CSC_141/week10/10.1.py
