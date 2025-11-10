@@ -1,0 +1,3 @@
+learning_python.txt
+
+I am learning Python, it makes coding simple... supposed to anyways
