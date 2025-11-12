@@ -19,7 +19,7 @@ class ElectricCar:
         self.year = year
         self.battery = Battery()
 
-my_tesla = ElectricCar('tesla', 'model y', 2025)
+my_tesla = ElectricCar('tesla', 'model S', 2025)
 my_tesla.battery.describe_battery()
 my_tesla.battery.upgrade_battery()
 my_tesla.battery.describe_battery()
