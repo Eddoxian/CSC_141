@@ -2,7 +2,7 @@ import pygame
 import random
 from configs import HEIGHT, PIPE_GAP, PIPE_SPEED
 
-class PipePair:
+class Pipes:
     def __init__(self, x):
         self.width = 52
         self.gap_y = random.randint(100, HEIGHT - 200)

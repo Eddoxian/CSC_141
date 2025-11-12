@@ -31,7 +31,7 @@ def main():
             #Creates Pipes
             spawn_timer += 1
             if spawn_timer > 90:
-                pipes.append(PipePair(WIDTH))
+                pipes.append(Pipes(WIDTH))
                 spawn_timer = 0
 
             bird.update()
