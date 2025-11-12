@@ -1,6 +1,6 @@
 import pygame
 from birb import Bird
-from pipes import PipePair
+from pipe import Pipes
 from menu import main_menu, game_over_menu
 from configs import WIDTH, HEIGHT, FPS
 
